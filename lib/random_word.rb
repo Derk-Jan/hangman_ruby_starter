@@ -40,7 +40,7 @@ class RandomWord
         break
       elsif @check == true
         self.positions_for
-      elsif @counter ==  0
+      elsif @counter < 1
         puts "Aah big, big,  big dissapointment: You've lost!"
       else
         puts "Next time better, lets try again"
